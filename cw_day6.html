@@ -26,11 +26,45 @@
               <input type="email" name="mail" id="email" class="form-control" placeholder="someone@example.com">
             </div>
             <div class="form-group">
-              <label for="feedback">Your feedbacks here:</label>
-              <textarea name="comments" id="feedback" class="form-control" rows="3" placeholder="your comments here!"></textarea>
+              <label for="discovery">How did you find our site?</label>
+              <select class="form-control" name="hdsus" id="discovery">
+                <option value="youtube">Youtube</option>
+                <option value="google">Google search</option>
+                <option value="friend">Through a friend or family </option>
+                <option value="other">Other</option>
+              </select>
             </div>
-            <div class="form-group text-center">
-              <button type="submit" class="btn btn-primary ">Submit</button>
+            <div class="form-group mt-5">
+              <label >Your satisfaction level from 1-5</label>
+              <div class="d-flex justify-content-between ">
+                <div class="form-check-inline">
+                  <label class="form-check-input" for="one">1</label>
+                  <input class="form-check-input" type="radio" name="r-one" id="one">
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-input" for="two">2</label>
+                  <input class="form-check-input" type="radio" name="r-two" id="two">
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-input" for="three" >3</label>
+                  <input class="form-check-input" type="radio" name="r-three" id="three">
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-input" for="four" >4</label>
+                  <input class="form-check-input" type="radio" name="r-four" id="four">
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-input" for="five" >5</label>
+                  <input class="form-check-input" type="radio" name="r-five" id="five">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="feedback">Your feedbacks here:</label>
+                <textarea name="comments" id="feedback" class="form-control" rows="3" placeholder="your comments here!"></textarea>
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary ">Submit</button>
+              </div>
             </div>
           </form>
         </div>
