@@ -14,68 +14,126 @@
   </head>
   <body>
     <div class="container mt-4">
-      <div id="accordion">
-        <div class="card">
-          <div class="card-header">
-            <a class="card-link" data-toggle="collapse" href="#collapseOne">
-              What is your return policy?
-            </a>
-          </div>
-          <div id="collapseOne" class="collapse show" data-parent="#accordion">
-            <div class="card-body">
-              You can return any product within 30 days of purchase for a full
-              refund.
+      <div class="row">
+        <div class="col">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                  What is your return policy?
+                </a>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse show"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  You can return any product within 30 days of purchase for a
+                  full refund.
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <a
-              class="collapsed card-link"
-              data-toggle="collapse"
-              href="#collapseTwo"
-            >
-              How can I track my order?
-            </a>
-          </div>
-          <div id="collapseTwo" class="collapse" data-parent="#accordion">
-            <div class="card-body">
-              Once shipped, you will receive an email containing a unique
-              tracking link.
+
+            <div class="card">
+              <div class="card-header">
+                <a
+                  class="collapsed card-link"
+                  data-toggle="collapse"
+                  href="#collapseTwo"
+                >
+                  How can I track my order?
+                </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Once shipped, you will receive an email containing a unique
+                  tracking link.
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <a
-              class="collapsed card-link"
-              data-toggle="collapse"
-              href="#collapseThree"
-            >
-              Do you offer international shipping?
-            </a>
-          </div>
-          <div id="collapseThree" class="collapse" data-parent="#accordion">
-            <div class="card-body">
-              Yes, we ship to over 50 countries worldwide with varying delivery
-              rates.
+
+            <div class="card">
+              <div class="card-header">
+                <a
+                  class="collapsed card-link"
+                  data-toggle="collapse"
+                  href="#collapseThree"
+                >
+                  Do you offer international shipping?
+                </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                  Yes, we ship to over 50 countries worldwide with varying
+                  delivery rates.
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row mt-5 text-center">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Name: Sarah Jenkins</h4>
-              <p class="card-text">Role: Technical Support Specialist</p>
-              <!-- Dropdown -->
-              <div class="dropdown">
-                <button
-                  type="button"
-                  class="btn btn-primary dropdown-toggle"
-                  data-toggle="dropdown"
-                >Quick actions </button>
+      <!-- cards -->
+      <div class="card-columns mt-5">
+        <!-- card 1 -->
+        <div class="card mb-3">
+          <div class="card-body">
+            <h4 class="card-title">Name: Sarah Jenkins</h4>
+            <p class="card-text">Role: Technical Support Specialist</p>
+            <div class="dropdown">
+              <button
+                type="button"
+                class="btn btn-primary dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                Quick actions
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Call</a>
+                <a class="dropdown-item" href="#">Email</a>
+                <a class="dropdown-item" href="#">Message</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Name: Michael Chang</h4>
+            <p class="card-text">Role: Billing & Account Supervisor</p>
+            <div class="dropdown">
+              <button
+                type="button"
+                class="btn btn-primary dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                Quick actions
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Call</a>
+                <a class="dropdown-item" href="#">Email</a>
+                <a class="dropdown-item" href="#">Message</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Name: Elena Rostova</h4>
+            <p class="card-text">Role: Customer Success Manager</p>
+            <div class="dropdown">
+              <button
+                type="button"
+                class="btn btn-primary dropdown-toggle"
+                data-toggle="dropdown"
+              >
+                Quick actions
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Call</a>
+                <a class="dropdown-item" href="#">Email</a>
+                <a class="dropdown-item" href="#">Message</a>
               </div>
             </div>
           </div>
