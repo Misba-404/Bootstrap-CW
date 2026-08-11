@@ -13,7 +13,7 @@
     <title>Travel page</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid text-center">
       <div id="travel" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
           <li data-target="#travel" data-slide-to="0" class="active"></li>
@@ -60,7 +60,31 @@
         </div>
       </div>
       <!-- carousal complete -->
-       
+      <!-- Modal -->
+      <button
+        type="button"
+        class="btn btn-info mt-2"
+        data-toggle="modal"
+        data-target="#myModal"
+      >
+        Book now
+      </button>
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Book Now</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                Unlock 20% off your dream beach resort stay. White sands, clear
+                water, and ultimate relaxation await. Complete your booking
+                within the next 24 hours to secure this limited-time rate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
